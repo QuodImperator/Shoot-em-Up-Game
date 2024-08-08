@@ -60,8 +60,13 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.33f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Logic_script.cs" />
+    <Compile Include="Assets\ExplosionScript.cs" />
+    <Compile Include="Assets\enemy_spawner_script.cs" />
     <Compile Include="Assets\ScrollingBackground.cs" />
+    <Compile Include="Assets\player_laser_script.cs" />
     <Compile Include="Assets\Control_script.cs" />
+    <Compile Include="Assets\EnemyScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

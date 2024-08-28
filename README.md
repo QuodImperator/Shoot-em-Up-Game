@@ -1,6 +1,5 @@
 # Shoot 'em Up Game
 This is a game I made by myself in Unity, the built game is in the "Game" folder, whereas the code is in the .sln file.
-<<<<<<< HEAD
 
 =======
 ## How to play
@@ -51,4 +50,3 @@ This is the move function found within the control script for the player_plane o
    - movementInput is a Vector2 variable that stores the direction of movement based on the player's input. It combines the horizontal and vertical inputs into a single 2D vector. For example: (1, 0) would move the GameObject to the right. (0, 1) would move the GameObject up. (-1, -1) would move the GameObject diagonally down-left.
 4. Applying movement to the Rigidbody:
    - myRigidbody is a reference to the Rigidbody2D component attached to the GameObject, velocity is a property that directly controls the speed and direction of the Rigidbody. The movementInput vector is multiplied by movementSpeed (a global value controlling how fast the GameObject should move) and Time.fixedDeltaTime. Time.fixedDeltaTime ensures that the movement speed is consistent across different frame rates. It represents the time interval between physics updates, making the movement frame-rate independent.
->>>>>>> dev

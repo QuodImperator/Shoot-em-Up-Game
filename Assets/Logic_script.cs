@@ -13,7 +13,7 @@ public class Logic_script : MonoBehaviour
 
     void Start()
     {
-        playerHealth = 3;
+        playerHealth = 2;
     }
 
     public void addScore()

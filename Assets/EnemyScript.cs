@@ -47,6 +47,7 @@ public class EnemyScript : MonoBehaviour
         {
             if (logic.playerHealth <= 0)
             {
+                logic.playerHealth -= 1;
                 Destroy(player_plane.gameObject);
                 Destroy(gameObject);
                 Instantiate(explosion, transform.position, Quaternion.identity);

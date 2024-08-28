@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Logic_script.cs" />
+    <Compile Include="Assets\HealthBarScript.cs" />
     <Compile Include="Assets\ExplosionScript.cs" />
     <Compile Include="Assets\enemy_spawner_script.cs" />
     <Compile Include="Assets\ScrollingBackground.cs" />

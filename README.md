@@ -1,5 +1,6 @@
 # Shoot 'em Up Game
 This is a game I made by myself in Unity, the built game is in the "Game" folder, whereas the code is in the .sln file.
+![geym](https://github.com/user-attachments/assets/73af13ce-147f-4c26-8435-f8e81d209e8f)
 
 ## How to play
 The game is quite simple, movement is omni-directional and done with the arrow keys, the gun is shot with "Space" and fires as fast as you can press, the goal is to get as many points as possible by destroying enemies, get hit 3 times and you will die. Upon death, you may restart the game and try again!
